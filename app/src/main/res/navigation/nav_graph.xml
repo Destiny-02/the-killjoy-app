@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MenuFragment">
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="com.example.killjoyapp.MenuFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_MenuFragment_to_SetupsFragment"
+            app:destination="@id/SetupsFragment" />
+        <action
+            android:id="@+id/action_MenuFragment_to_AbilitiesFragment"
+            app:destination="@id/AbilitiesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SetupsFragment"
+        android:name="com.example.killjoyapp.SetupsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_setups">
+
+        <action
+            android:id="@+id/action_SetupsFragment_to_MenuFragment"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AbilitiesFragment"
+        android:name="com.example.killjoyapp.AbilitiesFragment"
+        android:label="fragment_abilities"
+        tools:layout="@layout/fragment_abilities" >
+        <action
+            android:id="@+id/action_AbilitiesFragment_to_MenuFragment"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+</navigation>
