@@ -24,15 +24,15 @@ public class MenuFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.button_1).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.menu_button_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MenuFragment.this)
-                        .navigate(R.id.action_MenuFragment_to_SetupsFragment);
+                        .navigate(R.id.action_MenuFragment_to_MapsFragment);
             }
         });
 
-        view.findViewById(R.id.button_2).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.menu_button_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MenuFragment.this)

@@ -9,12 +9,21 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="button_1_text">SETUPS</string>
-    <string name="button_2_text">ABILITIES</string>
-    <string name="button_3_text">TRIVIA</string>
-    <string name="button_4_text">OTHER NOTES</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_button_1_text">SETUPS</string>
+    <string name="menu_button_2_text">ABILITIES</string>
+    <string name="menu_button_3_text">TRIVIA</string>
+    <string name="menu_button_4_text">OTHER NOTES</string>
+
+    <string name="maps_button_1_text">Ascent</string>
+    <string name="maps_button_2_text">Split</string>
+    <string name="maps_button_3_text">Haven</string>
+    <string name="maps_button_4_text">Bind</string>
+    <string name="maps_button_5_text">Icebox</string>
+    <string name="maps_button_6_text">Breeze</string>
+
+
     <string-array name="planets_array">
         <item>A Site </item>
         <item>B Site </item>

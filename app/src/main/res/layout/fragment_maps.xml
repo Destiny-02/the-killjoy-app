@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MenuFragment">
+    android:layout_height="match_parent">
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -19,10 +17,10 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/menu_button_1"
+                android:id="@+id/maps_button_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_button_1_text" />
+                android:text="@string/maps_button_1_text" />
         </TableRow>
 
         <TableRow
@@ -30,10 +28,10 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/menu_button_2"
+                android:id="@+id/maps_button_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_button_2_text" />
+                android:text="@string/maps_button_2_text" />
         </TableRow>
 
         <TableRow
@@ -41,10 +39,10 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/menu_button_3"
+                android:id="@+id/maps_button_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_button_3_text" />
+                android:text="@string/maps_button_3_text" />
         </TableRow>
 
         <TableRow
@@ -52,11 +50,34 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/menu_button_4"
+                android:id="@+id/maps_button_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/menu_button_4_text" />
+                android:text="@string/maps_button_4_text" />
         </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/maps_button_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maps_button_5_text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/maps_button_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maps_button_6_text" />
+        </TableRow>
+
+
     </TableLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
