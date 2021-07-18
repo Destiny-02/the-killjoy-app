@@ -23,12 +23,5 @@ public class IceboxFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.back_to_maps_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(IceboxFragment.this)
-                        .navigate(R.id.action_IceboxFragment_to_MapsFragment);
-            }
-        });
     }
 }

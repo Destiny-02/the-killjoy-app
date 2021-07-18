@@ -23,12 +23,5 @@ public class AscentFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.back_to_maps_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(AscentFragment.this)
-                        .navigate(R.id.action_AscentFragment_to_MapsFragment);
-            }
-        });
     }
 }

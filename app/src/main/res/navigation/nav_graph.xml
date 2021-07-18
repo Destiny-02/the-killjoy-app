@@ -71,9 +71,6 @@
         android:name="com.example.killjoyapp.AscentFragment"
         android:label="fragment_ascent"
         tools:layout="@layout/fragment_ascent" >
-        <action
-            android:id="@+id/action_AscentFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
     <fragment
@@ -81,9 +78,6 @@
         android:name="com.example.killjoyapp.SplitFragment"
         android:label="fragment_split"
         tools:layout="@layout/fragment_split" >
-        <action
-            android:id="@+id/action_SplitFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
     <fragment
@@ -91,9 +85,6 @@
         android:name="com.example.killjoyapp.HavenFragment"
         android:label="fragment_haven"
         tools:layout="@layout/fragment_haven" >
-        <action
-            android:id="@+id/action_HavenFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
     <fragment
@@ -101,9 +92,6 @@
         android:name="com.example.killjoyapp.BindFragment"
         android:label="fragment_bind"
         tools:layout="@layout/fragment_bind" >
-        <action
-            android:id="@+id/action_BindFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
     <fragment
@@ -111,9 +99,6 @@
         android:name="com.example.killjoyapp.IceboxFragment"
         android:label="fragment_icebox"
         tools:layout="@layout/fragment_icebox" >
-        <action
-            android:id="@+id/action_IceboxFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
     <fragment
@@ -121,9 +106,6 @@
         android:name="com.example.killjoyapp.BreezeFragment"
         android:label="fragment_breeze"
         tools:layout="@layout/fragment_breeze" >
-        <action
-            android:id="@+id/action_BreezeFragment_to_MapsFragment"
-            app:destination="@id/MapsFragment" />
     </fragment>
 
 </navigation>
