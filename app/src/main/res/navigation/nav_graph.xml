@@ -20,7 +20,14 @@
         <action
             android:id="@+id/action_MenuFragment_to_MapsFragment"
             app:destination="@id/MapsFragment" />
+        <action
+            android:id="@+id/action_MenuFragment_to_TriviaFragment"
+            app:destination="@id/TriviaFragment" />
+        <action
+            android:id="@+id/action_MenuFragment_to_OtherNotesFragment"
+            app:destination="@id/OtherNotesFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/SetupsFragment"
         android:name="com.example.killjoyapp.SetupsFragment"
@@ -38,6 +45,24 @@
         tools:layout="@layout/fragment_abilities" >
         <action
             android:id="@+id/action_AbilitiesFragment_to_MenuFragment"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TriviaFragment"
+        android:name="com.example.killjoyapp.TriviaFragment"
+        android:label="fragment_trivia"
+        tools:layout="@layout/fragment_trivia" >
+        <action
+            android:id="@+id/action_TriviaFragment_to_MenuFragment"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/OtherNotesFragment"
+        android:name="com.example.killjoyapp.OtherNotesFragment"
+        android:label="fragment_other_notes"
+        tools:layout="@layout/fragment_other_notes" >
+        <action
+            android:id="@+id/action_OtherNotesFragment_to_MenuFragment"
             app:destination="@id/MenuFragment" />
     </fragment>
 
