@@ -46,5 +46,84 @@
         android:name="com.example.killjoyapp.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_MapsFragment_to_AscentFragment"
+            app:destination="@id/AscentFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_SplitFragment"
+            app:destination="@id/SplitFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_HavenFragment"
+            app:destination="@id/HavenFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_BindFragment"
+            app:destination="@id/BindFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_IceboxFragment"
+            app:destination="@id/IceboxFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_BreezeFragment"
+            app:destination="@id/BreezeFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/AscentFragment"
+        android:name="com.example.killjoyapp.AscentFragment"
+        android:label="fragment_ascent"
+        tools:layout="@layout/fragment_ascent" >
+        <action
+            android:id="@+id/action_AscentFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SplitFragment"
+        android:name="com.example.killjoyapp.SplitFragment"
+        android:label="fragment_split"
+        tools:layout="@layout/fragment_split" >
+        <action
+            android:id="@+id/action_SplitFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/HavenFragment"
+        android:name="com.example.killjoyapp.HavenFragment"
+        android:label="fragment_haven"
+        tools:layout="@layout/fragment_haven" >
+        <action
+            android:id="@+id/action_HavenFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/BindFragment"
+        android:name="com.example.killjoyapp.BindFragment"
+        android:label="fragment_bind"
+        tools:layout="@layout/fragment_bind" >
+        <action
+            android:id="@+id/action_BindFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/IceboxFragment"
+        android:name="com.example.killjoyapp.IceboxFragment"
+        android:label="fragment_icebox"
+        tools:layout="@layout/fragment_icebox" >
+        <action
+            android:id="@+id/action_IceboxFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/BreezeFragment"
+        android:name="com.example.killjoyapp.BreezeFragment"
+        android:label="fragment_breeze"
+        tools:layout="@layout/fragment_breeze" >
+        <action
+            android:id="@+id/action_BreezeFragment_to_MapsFragment"
+            app:destination="@id/MapsFragment" />
+    </fragment>
+
 </navigation>

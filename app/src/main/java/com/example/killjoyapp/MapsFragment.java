@@ -23,5 +23,54 @@ public class MapsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        view.findViewById(R.id.maps_button_1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_AscentFragment);
+            }
+        });
+
+        view.findViewById(R.id.maps_button_2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_SplitFragment);
+            }
+        });
+
+        view.findViewById(R.id.maps_button_3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_HavenFragment);
+            }
+        });
+
+        view.findViewById(R.id.maps_button_4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_BindFragment);
+            }
+        });
+
+        view.findViewById(R.id.maps_button_5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_IceboxFragment);
+            }
+        });
+
+        view.findViewById(R.id.maps_button_6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_BreezeFragment);
+            }
+        });
+
+
     }
 }
