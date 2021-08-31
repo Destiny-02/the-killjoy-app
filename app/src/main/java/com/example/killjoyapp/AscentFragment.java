@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -30,6 +31,7 @@ public class AscentFragment extends Fragment {
         myAdapter = new MyAdapter(getContext(), getMyList());
         recyclerView.setAdapter(myAdapter);
 
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Ascent");
         // Inflate the layout for this fragment
         return v;
     }
