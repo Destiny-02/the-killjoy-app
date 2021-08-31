@@ -40,21 +40,21 @@ public class AscentFragment extends Fragment {
 
         Model m = new Model();
 
-        m.setTitle("News Feed");
-        m.setDescription("This is newsfeed description .... ");
-        m.setImg(R.drawable.grenade_icon);
+        m.setTitle("A Site Attacker");
+        m.setDescription("Lands in front of the generator. Grenade thrown from wines.");
+        m.setImg(R.mipmap.ic_launcher);
         models.add(m);
 
         m = new Model();
-        m.setTitle("Stuff");
-        m.setDescription("aefawefawef");
-        m.setImg(R.drawable.ascent_map);
+        m.setTitle("A Site Attacker");
+        m.setDescription("Lands in front of the generator. Grenade thrown from A lobby. ");
+        m.setImg(R.mipmap.ic_launcher);
         models.add(m);
 
         m = new Model();
-        m.setTitle("I am a title");
-        m.setDescription("eeeeeeeeeeee");
-        m.setImg(R.drawable.map_image_test);
+        m.setTitle("A Site Attacker");
+        m.setDescription("Lands on the left side of generator. Gernade thrown from wines");
+        m.setImg(R.mipmap.ic_launcher);
         models.add(m);
 
         return models;
