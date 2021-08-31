@@ -30,9 +30,9 @@
 
     <fragment
         android:id="@+id/SetupsFragment"
-        android:name="com.example.killjoyapp.SetupsFragment"
+        android:name="com.example.killjoyapp.LineupsFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_setups">
+        tools:layout="@layout/fragment_lineups">
 
         <action
             android:id="@+id/action_SetupsFragment_to_MenuFragment"
