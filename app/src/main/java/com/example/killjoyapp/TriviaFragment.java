@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 public class TriviaFragment extends Fragment {
@@ -17,7 +16,6 @@ public class TriviaFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Trivia");
         return inflater.inflate(R.layout.fragment_trivia, container, false);
     }
 

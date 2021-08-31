@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -19,7 +18,6 @@ public class MenuFragment extends Fragment {
     ) {
 
         // Inflate the layout for this fragment
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("The Killjoy App");
         return inflater.inflate(R.layout.fragment_menu, container, false);
     }
 

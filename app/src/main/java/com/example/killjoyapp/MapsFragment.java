@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -18,7 +17,6 @@ public class MapsFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Setups");
         return inflater.inflate(R.layout.fragment_maps, container, false);
     }
 
