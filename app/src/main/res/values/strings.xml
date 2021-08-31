@@ -24,10 +24,4 @@
     <string name="maps_button_6_text">Breeze</string>
     <string name="back">Back</string>
 
-
-    <string-array name="planets_array">
-        <item>A Site </item>
-        <item>B Site </item>
-        <item>Mid </item>
-    </string-array>
 </resources>
