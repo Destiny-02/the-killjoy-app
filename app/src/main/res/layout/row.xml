@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/image_preview_card"
+            android:src="@drawable/grenade_icon"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_card"
+            android:text="Title"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image_preview_card"
+            android:layout_toEndOf="@id/image_preview_card"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_card"
+            android:text="Description"
+            android:textSize="10sp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_toRightOf="@id/image_preview_card"
+            android:layout_toEndOf="@id/image_preview_card"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/title_card"
+
+
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
