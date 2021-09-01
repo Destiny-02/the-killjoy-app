@@ -51,6 +51,7 @@ public class VideoPage extends AppCompatActivity {
         int id = item.getItemId();
         if (id == android.R.id.home) {
             onBackPressed();
+            overridePendingTransition(0, 0);
             return true;
         }
 

@@ -60,6 +60,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 intent.putExtra("title", title);
                 intent.putExtra("des", des);
                 intent.putExtra("image", bytes);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 c.startActivity(intent);
             }
         });
