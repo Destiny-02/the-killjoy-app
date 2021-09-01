@@ -1,8 +1,5 @@
 package com.example.killjoyapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -14,37 +11,33 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class VideoPage extends Fragment {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class VideoPage extends AppCompatActivity {
 
     TextView mTitle, mDes;
     ImageView mImage;
 
     @Override
-    public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
-    ) {
-        View v = inflater.inflate(R.layout.fragment_video_page, container, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_video_page);
 
-        mTitle = v.findViewById(R.id.title);
-        mDes = v.findViewById(R.id.description);
-        mImage = v.findViewById(R.id.image_view);
+        mTitle = findViewById(R.id.title);
+        mDes = findViewById(R.id.description);
+        mImage = findViewById(R.id.image_view);
 
-        Intent intent = ((Activity) getContext()).getIntent();
-/*
-        Intent intent = new Intent(getActivity(), Fragment.class);*/
+        Intent intent = getIntent();
         String title = intent.getStringExtra("title");
         String des = intent.getStringExtra("des");
 
-        byte[] bytes = ((Activity) getContext()).getIntent().getByteArrayExtra("image");
+        byte[] bytes = getIntent().getByteArrayExtra("image");
         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
 
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(title);
+       /* ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(title);*/
 
         mTitle.setText(title);
         mDes.setText(des);
         mImage.setImageBitmap(bitmap);
-        // Inflate the layout for this fragment
-        return v;
     }
 }
