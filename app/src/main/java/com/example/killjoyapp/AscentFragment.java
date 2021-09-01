@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -42,21 +41,21 @@ public class AscentFragment extends Fragment {
 
         Model m = new Model();
 
-        m.setTitle("A Site Attacker");
-        m.setDescription("Lands in front of the generator. Grenade thrown from wines.");
-        m.setImg(R.mipmap.ic_launcher);
+        m.setTitle("Front of Generator #1");
+        m.setDescription("For A site post plant. Lands in front of the generator. Grenade thrown from wines.");
+        m.setImg(R.drawable.grenade_icon);
         models.add(m);
 
         m = new Model();
-        m.setTitle("A Site Attacker");
+        m.setTitle("Front of Generator #2");
         m.setDescription("Lands in front of the generator. Grenade thrown from A lobby. ");
-        m.setImg(R.mipmap.ic_launcher);
+        m.setImg(R.drawable.grenade_icon);
         models.add(m);
 
         m = new Model();
-        m.setTitle("A Site Attacker");
+        m.setTitle("Left of Generator");
         m.setDescription("Lands on the left side of generator. Gernade thrown from wines");
-        m.setImg(R.mipmap.ic_launcher);
+        m.setImg(R.drawable.grenade_icon);
         models.add(m);
 
         return models;
