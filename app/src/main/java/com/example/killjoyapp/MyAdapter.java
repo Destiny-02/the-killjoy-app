@@ -31,7 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     @Override
     public MyHolder onCreateViewHolder(@NonNull @NotNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row, null);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_row, null);
         return new MyHolder(view);
     }
 
@@ -41,6 +41,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
         holder.title.setText(models.get(position).getTitle());
         holder.des.setText(models.get(position).getDescription());
         holder.imageView.setImageResource(models.get(position).getImg());
+        holder.videoView.loadData(models.get(position).getVideoUrl(), "text/html" , "utf-8" );
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
@@ -56,10 +57,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
                 byte[] bytes = stream.toByteArray();
 
+                String url = models.get(position).getVideoUrl();
+
                 Intent intent = new Intent(c, VideoPage.class);
                 intent.putExtra("title", title);
                 intent.putExtra("des", des);
                 intent.putExtra("image", bytes);
+                intent.putExtra("video", url);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 c.startActivity(intent);
             }

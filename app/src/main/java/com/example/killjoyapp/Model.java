@@ -2,7 +2,7 @@ package com.example.killjoyapp;
 
 public class Model {
 
-    private String title, description;
+    private String title, description, url;
     private int img;
 
     public String getTitle() {
@@ -27,5 +27,12 @@ public class Model {
 
     public void setImg(int img) {
         this.img = img;
+    }
+
+    public void setVideoUrl(String url) {
+        this.url = url;
+    }
+    public String getVideoUrl() {
+        return this.url;
     }
 }

@@ -36,8 +36,14 @@
         android:textColor="@color/design_default_color_primary"
         android:layout_below="@+id/title"
         android:layout_marginTop="5dp"
-
-
         />
 
+    <WebView
+        android:id="@+id/video_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="5dp"
+        >
+    </WebView>
 </RelativeLayout>

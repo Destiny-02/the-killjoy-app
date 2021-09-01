@@ -44,18 +44,21 @@ public class AscentFragment extends Fragment {
         m.setTitle("Front of Generator #1");
         m.setDescription("For A site post plant. Lands in front of the generator. Grenade thrown from wines.");
         m.setImg(R.drawable.grenade_icon);
+        m.setVideoUrl("https://www.youtube.com/watch?v=bSMZknDI6bg");
         models.add(m);
 
         m = new Model();
         m.setTitle("Front of Generator #2");
         m.setDescription("Lands in front of the generator. Grenade thrown from A lobby. ");
         m.setImg(R.drawable.grenade_icon);
+        m.setVideoUrl("https://www.youtube.com/watch?v=qzcGfN9S_QY");
         models.add(m);
 
         m = new Model();
         m.setTitle("Left of Generator");
-        m.setDescription("Lands on the left side of generator. Gernade thrown from wines");
+        m.setDescription("Lands on the left side of generator. Grenade thrown from wines");
         m.setImg(R.drawable.grenade_icon);
+        m.setVideoUrl("https://www.youtube.com/watch?v=8Lq3HyBCuAA");
         models.add(m);
 
         return models;
