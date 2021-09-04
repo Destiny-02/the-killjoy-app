@@ -8,12 +8,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+
 public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
     ImageView imageView;
     TextView title, des;
     ItemClickListener itemClickListener;
-    WebView videoView;
+    YouTubePlayerView videoView;
 
     MyHolder(@NonNull View itemView) {
         super(itemView);

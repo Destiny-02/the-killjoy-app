@@ -41,7 +41,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
         holder.title.setText(models.get(position).getTitle());
         holder.des.setText(models.get(position).getDescription());
         holder.imageView.setImageResource(models.get(position).getImg());
-        holder.videoView.loadData(models.get(position).getVideoUrl(), "text/html" , "utf-8" );
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
@@ -57,7 +56,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
                 byte[] bytes = stream.toByteArray();
 
-                String url = models.get(position).getVideoUrl();
+                String url = models.get(position).getUrl();
 
                 Intent intent = new Intent(c, VideoPage.class);
                 intent.putExtra("title", title);

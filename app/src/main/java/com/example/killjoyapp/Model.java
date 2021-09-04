@@ -29,10 +29,10 @@ public class Model {
         this.img = img;
     }
 
-    public void setVideoUrl(String url) {
+    public void setUrl(String url) {
         this.url = url;
     }
-    public String getVideoUrl() {
+    public String getUrl() {
         return this.url;
     }
 }
