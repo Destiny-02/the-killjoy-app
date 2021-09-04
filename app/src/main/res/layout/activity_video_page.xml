@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#fff"
     tools:context=".VideoPage">
 
     <TextView
@@ -14,7 +14,6 @@
         android:id="@+id/title"
         android:text="Title"
         android:textSize="20sp"
-        android:textColor="#000"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
         />
@@ -25,7 +24,6 @@
         android:id="@+id/description"
         android:text="Description"
         android:textSize="12sp"
-        android:textColor="@color/design_default_color_primary"
         android:layout_below="@+id/title"
         android:layout_marginTop="5dp"
         />
@@ -37,4 +35,5 @@
         android:layout_below="@+id/description"
         android:layout_marginTop="5dp"
         app:showFullScreenButton="true" />
+
 </RelativeLayout>
