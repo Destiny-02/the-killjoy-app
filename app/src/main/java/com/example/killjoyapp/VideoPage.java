@@ -16,13 +16,20 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+
+import java.net.URL;
 
 public class VideoPage extends AppCompatActivity {
 
     TextView mTitle, mDes;
-    WebView mVideo;
+    YouTubePlayerView mVideo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +42,6 @@ public class VideoPage extends AppCompatActivity {
         mTitle = findViewById(R.id.title);
         mDes = findViewById(R.id.description);
         mVideo = findViewById(R.id.video_web_view);
-        mVideo.getSettings().setJavaScriptEnabled(true);
-        mVideo.getSettings().setDomStorageEnabled(true);
-
-        mVideo.setWebChromeClient(new WebChromeClient() {
-        } );
 
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
@@ -50,17 +52,17 @@ public class VideoPage extends AppCompatActivity {
 
         mTitle.setText(title);
         mDes.setText(des);
-        mVideo.loadUrl(url);
-        mVideo.setWebViewClient(new loadWebView());
+        getLifecycle().addObserver(mVideo);
+        mVideo.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
+            @Override
+            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
+                String videoId = url;
+                youTubePlayer.loadVideo(videoId, 0);
+            }
+        });
+
     }
 
-    private class loadWebView extends WebViewClient {
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.loadUrl(url);
-            return true;
-        }
-    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();

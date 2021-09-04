@@ -44,91 +44,91 @@ public class AscentFragment extends Fragment {
         m.setTitle("Wines to Green Boxes");
         m.setDescription("A attack post plant lineup. Crouch when following the video and perform a jump throw. ");
         m.setImg(R.drawable.wines_to_green_boxes);
-        m.setVideoUrl("https://www.youtube.com/watch?v=Q0y3EIc-IlE");
+        m.setUrl("Q0y3EIc-IlE");
         models.add(m);
 
         m = new Model();
         m.setTitle("Wines to Generator (Front) ");
         m.setDescription("A attack post plant lineup. ");
         m.setImg(R.drawable.wines_to_front_of_generator);
-        m.setVideoUrl("https://www.youtube.com/watch?v=wHFnrb8Mb_o");
+        m.setUrl("wHFnrb8Mb_o");
         models.add(m);
 
         m = new Model();
         m.setTitle("Tree to Wines");
         m.setDescription("A defense lineup. Can be used with ultimate at tree/glass. ");
         m.setImg(R.drawable.tree_to_wines);
-        m.setVideoUrl("https://www.youtube.com/watch?v=1kqj4mbGOro");
+        m.setUrl("1kqj4mbGOro");
         models.add(m);
 
         m = new Model();
         m.setTitle("Tree to Generator (Front)");
         m.setDescription("A defense lineup. Can be used delay a plant. ");
         m.setImg(R.drawable.tree_to_front_of_generator);
-        m.setVideoUrl("https://www.youtube.com/watch?v=jTSQdptzmnI");
+        m.setUrl("jTSQdptzmnI");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Heaven (Right-side)");
         m.setDescription("A attack lineup. ");
         m.setImg(R.drawable.lobby_to_right_side_of_heaven);
-        m.setVideoUrl("https://www.youtube.com/watch?v=pMlv4T1r9gA");
+        m.setUrl("pMlv4T1r9gA");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Green Boxes (Front) ");
         m.setDescription("A attack post plant lineup. ");
         m.setImg(R.drawable.lobby_to_front_of_green_boxes);
-        m.setVideoUrl("https://www.youtube.com/watch?v=-WluqbphzKk");
+        m.setUrl("-WluqbphzKk");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Generator (Front) ");
         m.setDescription("A attack post plant lineup. ");
         m.setImg(R.drawable.lobby_to_front_of_generator);
-        m.setVideoUrl("https://www.youtube.com/watch?v=mkj7dnvgEto");
+        m.setUrl("mkj7dnvgEto");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Green Boxes (Back) ");
         m.setDescription("A attack lineup. Can be used clear the area or for post plant. ");
         m.setImg(R.drawable.lobby_to_back_of_green_boxes);
-        m.setVideoUrl("https://www.youtube.com/watch?v=33dpk1-Z5Qk");
+        m.setUrl("33dpk1-Z5Qk");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Generator (Back) ");
         m.setDescription("A attack lineup. Can be used clear the area or for post plant. ");
         m.setImg(R.drawable.lobby_to_back_of_generator);
-        m.setVideoUrl("https://www.youtube.com/watch?v=ExQSqFWfbZE");
+        m.setUrl("ExQSqFWfbZE");
         models.add(m);
 
         m = new Model();
         m.setTitle("Hidden Grenades Around Generator");
         m.setDescription("A attack. Can be used with alarm bot. ");
         m.setImg(R.drawable.hidden_grenades_generator);
-        m.setVideoUrl("https://www.youtube.com/watch?v=LQGw91XzCeY");
+        m.setUrl("LQGw91XzCeY");
         models.add(m);
 
         m = new Model();
         m.setTitle("Grenade for Heaven");
         m.setDescription("Can be used with alarm bot or turret to delay a retake. ");
         m.setImg(R.drawable.hell_to_heaven);
-        m.setVideoUrl("https://www.youtube.com/watch?v=QsLqTfFikWQ");
+        m.setUrl("QsLqTfFikWQ");
         models.add(m);
 
         m = new Model();
         m.setTitle("Heaven to Generator (Front) #1");
         m.setDescription("A defense lineup. Can be used delay a plant.");
         m.setImg(R.drawable.heaven_to_front_of_generator_01);
-        m.setVideoUrl("https://www.youtube.com/watch?v=LRnYff-VINQ");
+        m.setUrl("LRnYff-VINQ");
         models.add(m);
 
         m = new Model();
         m.setTitle("Heaven to Generator (Front) #2");
         m.setDescription("A attack. Can be used with alarm bot. ");
         m.setImg(R.drawable.heaven_to_front_of_generator_02);
-        m.setVideoUrl("https://www.youtube.com/watch?v=ZrvsbaxTpns");
+        m.setUrl("ZrvsbaxTpns");
         models.add(m);
 
         return models;
