@@ -49,11 +49,8 @@
         <WebView
             android:id="@+id/video_web_view_card"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_below="@+id/description_card"
-            android:layout_marginTop="5dp"
-            >
-        </WebView>
+            android:layout_height="0dp"
+            android:visible="false"></WebView>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

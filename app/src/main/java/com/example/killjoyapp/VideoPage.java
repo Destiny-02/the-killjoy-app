@@ -22,7 +22,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class VideoPage extends AppCompatActivity {
 
     TextView mTitle, mDes;
-    ImageView mImage;
     WebView mVideo;
 
     @Override
@@ -35,7 +34,6 @@ public class VideoPage extends AppCompatActivity {
 
         mTitle = findViewById(R.id.title);
         mDes = findViewById(R.id.description);
-        mImage = findViewById(R.id.image_view);
         mVideo = findViewById(R.id.video_web_view);
         mVideo.getSettings().setJavaScriptEnabled(true);
         mVideo.getSettings().setDomStorageEnabled(true);
@@ -46,17 +44,12 @@ public class VideoPage extends AppCompatActivity {
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
         String des = intent.getStringExtra("des");
-
-        byte[] bytes = getIntent().getByteArrayExtra("image");
-        Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
-
         String url = intent.getStringExtra("video");
 
         actionBar.setTitle(title);
 
         mTitle.setText(title);
         mDes.setText(des);
-        mImage.setImageBitmap(bitmap);
         mVideo.loadUrl(url);
         mVideo.setWebViewClient(new loadWebView());
     }
