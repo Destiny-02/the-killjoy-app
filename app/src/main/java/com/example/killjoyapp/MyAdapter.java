@@ -1,9 +1,11 @@
 package com.example.killjoyapp;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,25 +48,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
             @Override
             public void onItemClickListener(View v, int position) {
 
-                String title = models.get(position).getTitle();
-                String des = models.get(position).getDescription();
-                BitmapDrawable bitmapDrawable = (BitmapDrawable) holder.imageView.getDrawable();
-
-                Bitmap bitmap = bitmapDrawable.getBitmap();
-
-                ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-                byte[] bytes = stream.toByteArray();
-
                 String url = models.get(position).getUrl();
 
-                Intent intent = new Intent(c, VideoPage.class);
-                intent.putExtra("title", title);
-                intent.putExtra("des", des);
-                intent.putExtra("image", bytes);
-                intent.putExtra("video", url);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                c.startActivity(intent);
+                Context context = v.getContext();
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube://" + url));
+                ((Activity)context).startActivity(intent);
             }
         });
 
