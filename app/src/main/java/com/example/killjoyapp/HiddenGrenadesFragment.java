@@ -69,6 +69,13 @@ public class HiddenGrenadesFragment extends Fragment {
         m.setUrl("DYX_Oilli6c");
         models.add(m);
 
+        m = new Model();
+        m.setTitle("Title");
+        m.setDescription("* Under construction *");
+        m.setImg(R.mipmap.ic_launcher);
+        m.setUrl("");
+        models.add(m);
+
         return models;
     }
 

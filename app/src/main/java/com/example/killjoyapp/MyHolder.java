@@ -13,7 +13,7 @@ public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickLis
     ImageView imageView;
     TextView title, des;
     ItemClickListener itemClickListener;
-    TextView video;
+    TextView videoView;
 
     MyHolder(@NonNull View itemView) {
         super(itemView);
@@ -21,7 +21,7 @@ public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickLis
         this.imageView = itemView.findViewById(R.id.image_preview_card);
         this.title = itemView.findViewById(R.id.title_card);
         this.des = itemView.findViewById(R.id.description_card);
-        this.video = itemView.findViewById(R.id.video_card);
+        this.videoView = itemView.findViewById(R.id.video_card);
 
         itemView.setOnClickListener(this);
 
