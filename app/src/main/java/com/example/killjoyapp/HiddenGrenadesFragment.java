@@ -79,7 +79,7 @@ public class HiddenGrenadesFragment extends Fragment {
         m = new Model();
         m.setTitle("Grenades Inside A Boxes");
         m.setDescription("For A attack or defense on Haven.");
-        m.setImg(R.drawable.haven_hidden_grenade_Aboxes);
+        m.setImg(R.drawable.haven_hidden_grenade_a_boxes);
         m.setUrl("");
         models.add(m);
 
