@@ -49,9 +49,9 @@
     </fragment>
     <fragment
         android:id="@+id/TriviaFragment"
-        android:name="com.example.killjoyapp.TriviaFragment"
+        android:name="com.example.killjoyapp.HiddenGrenadesFragment"
         android:label="fragment_trivia"
-        tools:layout="@layout/fragment_trivia" >
+        tools:layout="@layout/fragment_hidden_grenades" >
         <action
             android:id="@+id/action_TriviaFragment_to_MenuFragment"
             app:destination="@id/MenuFragment" />
