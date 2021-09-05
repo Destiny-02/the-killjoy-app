@@ -40,10 +40,30 @@ public class HavenFragment extends Fragment {
         ArrayList<Model> models = new ArrayList<>();
 
         Model m = new Model();
+        m.setTitle("Long to Default A");
+        m.setDescription("A attack post plant lineup. ");
+        m.setImg(R.drawable.haven_long_to_defaultA);
+        m.setUrl("");
+        models.add(m);
 
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
+        m = new Model();
+        m.setTitle("Short to Heaven A");
+        m.setDescription("For clearing right side of heaven on A attack. ");
+        m.setImg(R.drawable.haven_short_to_heaven);
+        m.setUrl("");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("Spawn to Middle Plant on B");
+        m.setDescription("B attack post plant lineup. Can go to B window after throwing grenades. Spike must be planted directly in the middle. ");
+        m.setImg(R.drawable.haven_spawn_to_Bmiddle);
+        m.setUrl("");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("Long to Boxes on C");
+        m.setDescription("C attack post plant lineups. First lineup is for default, second is for when spike is planted for long. ");
+        m.setImg(R.drawable.haven_long_to_defaultC);
         m.setUrl("");
         models.add(m);
 

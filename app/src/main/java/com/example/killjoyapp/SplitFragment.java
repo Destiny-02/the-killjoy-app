@@ -60,6 +60,20 @@ public class SplitFragment extends Fragment {
         m.setUrl("3N3Nas0qwWo");
         models.add(m);
 
+        m = new Model();
+        m.setTitle("Lobby to Left Corner");
+        m.setDescription("A attack post plant lineup. ");
+        m.setImg(R.drawable.split_lobby_to_left_corner);
+        m.setUrl("");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("Lobby to Middle");
+        m.setDescription("A attack post plant lineup. ");
+        m.setImg(R.drawable.split_lobby_to_middle);
+        m.setUrl("");
+        models.add(m);
+
         return models;
     }
 

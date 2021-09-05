@@ -71,9 +71,16 @@ public class HiddenGrenadesFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Grenades Behind Glass");
-        m.setDescription("For A attack post plants on Split. Grenade is undestroyable, but will need to stay nearby to listen for defuse sound cues. ");
+        m.setDescription("For A attack post plants on Split.");
         m.setImg(R.drawable.split_hidden_behind_glass);
         m.setUrl("7VgoWPumQjk");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("Grenades Inside A Boxes");
+        m.setDescription("For A attack or defense on Haven.");
+        m.setImg(R.drawable.haven_hidden_grenade_Aboxes);
+        m.setUrl("");
         models.add(m);
 
         return models;
