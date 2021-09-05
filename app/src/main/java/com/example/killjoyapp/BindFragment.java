@@ -40,10 +40,23 @@ public class BindFragment extends Fragment {
         ArrayList<Model> models = new ArrayList<>();
 
         Model m = new Model();
+        m.setTitle("Baths to Boxes");
+        m.setDescription("A site attack post plant lineup. ");
+        m.setImg(R.drawable.bind_baths_to_boxes);
+        m.setUrl("");
+        models.add(m);
 
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
+        m = new Model();
+        m.setTitle("Short to Truck");
+        m.setDescription("A site attack post plant lineup. ");
+        m.setImg(R.drawable.bind_short_to_truck);
+        m.setUrl("");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("Long to Default");
+        m.setDescription("B site attack post plant lineup. ");
+        m.setImg(R.drawable.bind_long_to_default);
         m.setUrl("");
         models.add(m);
 
