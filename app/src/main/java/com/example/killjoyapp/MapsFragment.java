@@ -73,6 +73,14 @@ public class MapsFragment extends Fragment {
             }
         });
 
+        view.findViewById(R.id.maps_button_7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MapsFragment.this)
+                        .navigate(R.id.action_MapsFragment_to_FractureFragment);
+            }
+        });
+
 
     }
 }

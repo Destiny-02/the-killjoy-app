@@ -89,6 +89,9 @@
         <action
             android:id="@+id/action_MapsFragment_to_BreezeFragment"
             app:destination="@id/BreezeFragment" />
+        <action
+            android:id="@+id/action_MapsFragment_to_FractureFragment"
+            app:destination="@id/FractureFragment" />
     </fragment>
 
     <fragment
@@ -131,6 +134,13 @@
         android:name="com.example.killjoyapp.BreezeFragment"
         android:label="fragment_breeze"
         tools:layout="@layout/fragment_breeze" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/FractureFragment"
+        android:name="com.example.killjoyapp.FractureFragment"
+        android:label="fragment_fracture"
+        tools:layout="@layout/fragment_fracture" >
     </fragment>
 
 </navigation>
