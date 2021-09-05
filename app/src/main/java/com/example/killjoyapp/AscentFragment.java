@@ -104,20 +104,6 @@ public class AscentFragment extends Fragment {
         models.add(m);
 
         m = new Model();
-        m.setTitle("Hidden Grenades Around Generator");
-        m.setDescription("A attack. Can be used with alarm bot. ");
-        m.setImg(R.drawable.hidden_grenades_generator);
-        m.setUrl("LQGw91XzCeY");
-        models.add(m);
-
-        m = new Model();
-        m.setTitle("Grenade for Heaven");
-        m.setDescription("Can be used with alarm bot or turret to delay a retake. ");
-        m.setImg(R.drawable.hell_to_heaven);
-        m.setUrl("QsLqTfFikWQ");
-        models.add(m);
-
-        m = new Model();
         m.setTitle("Heaven to Generator (Front) #1");
         m.setDescription("A defense lineup. Can be used delay a plant.");
         m.setImg(R.drawable.heaven_to_front_of_generator_01);
