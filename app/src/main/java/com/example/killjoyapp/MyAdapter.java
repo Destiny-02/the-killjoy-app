@@ -51,8 +51,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
                 String url = models.get(position).getUrl();
 
                 Context context = v.getContext();
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube://" + url));
-                ((Activity)context).startActivity(intent);
+
+                if (url != null) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube://" + url));
+                    ((Activity)context).startActivity(intent);
+                }
             }
         });
 
