@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/title1"
         android:layout_marginTop="5dp"
-        android:text="This app was created to help aspiring Killjoy mains master some of the her many grenade lineups and other strategies. It is recommended that players familiarise with turret / alarm bot placement, defense site setups, flank setups, site control and map awareness before proceeding to lineup strategies. "
+        android:text="This app was created to help aspiring Killjoy mains master some of the her many grenade lineups and other strategies. It is recommended that players familiarise with turret / alarm bot placement, defense site setups, flank setups, site control and map awareness before proceeding to lineup strategies. Players should also be aware of the delay between throwing the grenade and detonating, and should set up other utility accordingly. "
         android:textSize="12sp" />
 
     <TextView

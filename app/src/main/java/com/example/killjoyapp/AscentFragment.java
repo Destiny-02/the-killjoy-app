@@ -39,9 +39,8 @@ public class AscentFragment extends Fragment {
 
         ArrayList<Model> models = new ArrayList<>();
 
-        Model m = new Model();
-
         // A Site
+        Model m = new Model();
         m.setTitle("Wines to Green Boxes");
         m.setDescription("A attack post plant lineup. Crouch when following the video and perform a jump throw. ");
         m.setImg(R.drawable.wines_to_green_boxes);
@@ -113,7 +112,7 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Heaven to Generator (Front) #2");
-        m.setDescription("A attack. Can be used with alarm bot. ");
+        m.setDescription("A attack. ");
         m.setImg(R.drawable.heaven_to_front_of_generator_02);
         m.setUrl("ZrvsbaxTpns");
         models.add(m);
@@ -121,7 +120,7 @@ public class AscentFragment extends Fragment {
         // B Site
         m = new Model();
         m.setTitle("CT To Green Boxes");
-        m.setDescription("B attack. Can be used with alarm bot. ");
+        m.setDescription("B defense. ");
         m.setImg(R.drawable.ct_to_green_boxes);
         m.setUrl("fM-M6tgejGY");
         models.add(m);
@@ -135,7 +134,7 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Garage to Green Boxes");
-        m.setDescription("B attack. Can be used with alarm bot. ");
+        m.setDescription("B attack. ");
         m.setImg(R.drawable.garage_to_green_boxes);
         m.setUrl("HyGPO8qyw4A");
         models.add(m);
@@ -149,7 +148,7 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Lobby to Green Boxes");
-        m.setDescription("B attack. Can be used with alarm bot. ");
+        m.setDescription("B attack. ");
         m.setImg(R.drawable.lobby_to_green_boxes);
         m.setUrl("x0ghOmPyhRg");
         models.add(m);
@@ -163,7 +162,7 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Markets to Green Boxes");
-        m.setDescription("B attack. Can be used with alarm bot. ");
+        m.setDescription("B attack. ");
         m.setImg(R.drawable.markets_to_green_boxes);
         m.setUrl("EBFUXqst62s");
         models.add(m);

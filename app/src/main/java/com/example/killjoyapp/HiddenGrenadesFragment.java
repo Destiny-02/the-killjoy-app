@@ -49,31 +49,31 @@ public class HiddenGrenadesFragment extends Fragment {
         models.add(m);
 
         m = new Model();
-        m.setTitle("Grenades Insider Rubbish Bags");
+        m.setTitle("Grenades Inside Rubbish Bags");
         m.setDescription("For A attack post plants on Ascent.");
         m.setImg(R.drawable.hidden_grenade_rubbish_bags);
         m.setUrl("uye7Nk96IfU");
         models.add(m);
 
         m = new Model();
-        m.setTitle("Grenades inside Green Boxes");
+        m.setTitle("Grenade inside Green Boxes");
         m.setDescription("For A defense setups or A attack post plants on Ascent. ");
         m.setImg(R.drawable.hidden_grenade_in_green_boxes);
         m.setUrl("C5ZlUSlOBVI");
         models.add(m);
 
         m = new Model();
-        m.setTitle("Grenades for Heaven from Hell");
+        m.setTitle("Grenade for Heaven from Hell");
         m.setDescription("For A attack post plants on Ascent. Can be paired with alarm bot on heaven or turret on generator. ");
         m.setImg(R.drawable.hell_to_heaven);
         m.setUrl("DYX_Oilli6c");
         models.add(m);
 
         m = new Model();
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
-        m.setUrl("");
+        m.setTitle("Grenades Behind Glass");
+        m.setDescription("For A attack post plants on Split. Grenade is undestroyable, but will need to stay nearby to listen for defuse sound cues. ");
+        m.setImg(R.drawable.split_hidden_behind_glass);
+        m.setUrl("7VgoWPumQjk");
         models.add(m);
 
         return models;

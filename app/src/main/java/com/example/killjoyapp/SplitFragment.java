@@ -40,11 +40,24 @@ public class SplitFragment extends Fragment {
         ArrayList<Model> models = new ArrayList<>();
 
         Model m = new Model();
+        m.setTitle("Lobby to Default");
+        m.setDescription("A attack post plant lineup. ");
+        m.setImg(R.drawable.split_lobby_to_default);
+        m.setUrl("b75oWotAycs");
+        models.add(m);
 
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
-        m.setUrl("");
+        m = new Model();
+        m.setTitle("Heaven to Default");
+        m.setDescription("B attack or defense lineup. ");
+        m.setImg(R.drawable.split_heaven_default);
+        m.setUrl("pLMxA8dhr6Y");
+        models.add(m);
+
+        m = new Model();
+        m.setTitle("CT to Default");
+        m.setDescription("B attack or defense lineup. ");
+        m.setImg(R.drawable.split_ct_to_default);
+        m.setUrl("3N3Nas0qwWo");
         models.add(m);
 
         return models;
