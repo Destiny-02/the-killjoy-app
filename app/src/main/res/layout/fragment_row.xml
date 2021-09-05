@@ -44,8 +44,8 @@
             android:layout_below="@+id/title_card"
             />
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/video_web_view_card"
+        <TextView
+            android:id="@+id/video_card"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:visible="false" />
