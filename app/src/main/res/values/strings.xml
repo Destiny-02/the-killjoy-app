@@ -24,5 +24,13 @@
     <string name="maps_button_6_text">Breeze</string>
     <string name="back">Back</string>
     <string name="maps_button_7_text">Fracture</string>
+    <string name="about_author_text">The author is a second-year software engineering student. This app was her first (experimental) project for Android mobile devices using Android Studio (Java). Her work can be found on
+        <a href="https://github.com/Destiny-02">github.com/Destiny-02</a>.
+    </string>
+    <string name="sources_text">
+        C9 Keooh: <a href="https://www.youtube.com/watch?v=8wenS-w4xZY">The BEST Killjoy Molly Lineups for EVERY MAP </a>\n
+        SkillCapped Valorant Tips Tricks and Guides: <a href="https://www.youtube.com/watch?v=llo9vOgRrFw">NEW KILLJOY ATTACK LINEUPS &amp; SETUPS on ASCENT</a>\n
+        VALORANT Wiki: <a href="https://valorant.fandom.com/wiki/Killjoy">Killjoy</a>\n
+    </string>
 
 </resources>

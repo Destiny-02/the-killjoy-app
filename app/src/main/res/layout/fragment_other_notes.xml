@@ -42,30 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/description2"
-        android:text="The author is a second-year software engineering student. This app was her first (experimental) project for Android mobile devices using Android Studio (Java). Her work can be found on https://github.com/Destiny-02. "
         android:textSize="12sp"
         android:layout_below="@+id/title2"
-        android:layout_marginTop="5dp"
-        />
-
-    <TextView
-        android:id="@+id/title3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/description2"
-        android:layout_marginTop="5dp"
-        android:text="External Links"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:paddingTop="32dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/description3"
-        android:text="Description"
-        android:textSize="12sp"
-        android:layout_below="@+id/title3"
         android:layout_marginTop="5dp"
         />
 
@@ -77,7 +55,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingTop="32dp"
-        android:layout_below="@+id/description3"
+        android:layout_below="@+id/description2"
         android:layout_marginTop="5dp"
         />
 
@@ -85,7 +63,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/description4"
-        android:text="Description"
         android:textSize="12sp"
         android:layout_below="@+id/title4"
         android:layout_marginTop="5dp"
