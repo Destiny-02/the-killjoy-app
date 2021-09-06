@@ -43,21 +43,21 @@ public class IceboxFragment extends Fragment {
         m.setTitle("Spawn to Default A");
         m.setDescription("A attack post plant lineup. Good if you are watching flank with turret, but will need to get the timing right (lineup is thrown a long way away from plant). ");
         m.setImg(R.drawable.icebox_spawn_to_default_a);
-        m.setUrl("");
+        m.setUrl("pr7z6J4yAHA");
         models.add(m);
 
         m = new Model();
         m.setTitle("Pipes to Default A");
         m.setDescription("A attack post plant lineup. ");
         m.setImg(R.drawable.icebox_pipes_to_default_a);
-        m.setUrl("");
+        m.setUrl("1AzdBAX9B2k");
         models.add(m);
 
         m = new Model();
         m.setTitle("Cubby to Default B");
         m.setDescription("B attack post plant lineup. ");
         m.setImg(R.drawable.icebox_cubby_to_default_b);
-        m.setUrl("");
+        m.setUrl("SLnq6OtPTeI");
         models.add(m);
 
         return models;

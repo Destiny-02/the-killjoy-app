@@ -68,4 +68,15 @@
         android:layout_marginTop="5dp"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_updated_text"
+        android:text="Last updated: September 2021"
+        android:textSize="12sp"
+        android:layout_below="@+id/description4"
+        android:layout_marginTop="5dp"
+        android:paddingTop="32dp"
+        />
+
 </RelativeLayout>

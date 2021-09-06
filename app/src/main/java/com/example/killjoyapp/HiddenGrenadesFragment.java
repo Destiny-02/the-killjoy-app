@@ -80,21 +80,21 @@ public class HiddenGrenadesFragment extends Fragment {
         m.setTitle("Grenades Inside A Boxes");
         m.setDescription("For A attack or defense on Haven.");
         m.setImg(R.drawable.haven_hidden_grenade_a_boxes);
-        m.setUrl("");
+        m.setUrl("1jgHspw95-E");
         models.add(m);
 
         m = new Model();
         m.setTitle("Grenades Inside A Boxes");
         m.setDescription("For A attack or defense on Icebox.");
         m.setImg(R.drawable.icebox_hidden_green_boxes_a);
-        m.setUrl("");
+        m.setUrl("_r7wTwYcO7g");
         models.add(m);
 
         m = new Model();
         m.setTitle("Grenades Inside B Boxes");
         m.setDescription("For B attack or defense on Icebox.");
         m.setImg(R.drawable.icebox_hidden_green_boxes_b);
-        m.setUrl("");
+        m.setUrl("C2Gg8yGSfIk");
         models.add(m);
 
         return models;

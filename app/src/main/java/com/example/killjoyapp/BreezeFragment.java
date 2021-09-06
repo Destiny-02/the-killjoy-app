@@ -40,10 +40,16 @@ public class BreezeFragment extends Fragment {
         ArrayList<Model> models = new ArrayList<>();
 
         Model m = new Model();
+        m.setTitle("Lobby to Default A");
+        m.setDescription("A site post plant lineup (jump throw). ");
+        m.setImg(R.drawable.breeze_lobby_to_default_a);
+        m.setUrl("");
+        models.add(m);
 
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
+        m = new Model();
+        m.setTitle("Window to Default B");
+        m.setDescription("B site post plant lineup (jump throw). Can peak defuse from window after throwing grenades. ");
+        m.setImg(R.drawable.breeze_window_to_default_b);
         m.setUrl("");
         models.add(m);
 
