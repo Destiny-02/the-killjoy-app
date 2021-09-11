@@ -57,7 +57,7 @@ public class HavenFragment extends Fragment {
         m.setTitle("Spawn to Middle Plant on B");
         m.setDescription("B attack post plant lineup. Can go to B window after throwing grenades. Spike must be planted directly in the middle. ");
         m.setImg(R.drawable.haven_spawn_to_b_middle);
-        m.setUrl("KeOIs-dlUrM");
+        m.setUrl("mBKbfNBTRCs");
         models.add(m);
 
         m = new Model();

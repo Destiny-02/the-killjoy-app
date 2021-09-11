@@ -40,11 +40,10 @@ public class FractureFragment extends Fragment {
         ArrayList<Model> models = new ArrayList<>();
 
         Model m = new Model();
-
-        m.setTitle("Title");
-        m.setDescription("* Under construction *");
-        m.setImg(R.mipmap.ic_launcher);
-        m.setUrl("");
+        m.setTitle("Spawn to Default B");
+        m.setDescription("B site attack post plant lineup. Perform a jump throw. ");
+        m.setImg(R.drawable.fracture_spawn_to_default_b);
+        m.setUrl("1YMu8G_z74E");
         models.add(m);
 
         return models;

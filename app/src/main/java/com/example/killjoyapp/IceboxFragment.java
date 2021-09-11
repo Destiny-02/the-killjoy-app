@@ -54,6 +54,13 @@ public class IceboxFragment extends Fragment {
         models.add(m);
 
         m = new Model();
+        m.setTitle("Ropes to Default B");
+        m.setDescription("B attack post plant lineup. ");
+        m.setImg(R.drawable.icebox_ropes_to_default_b);
+        m.setUrl("3mvNI7aUviI");
+        models.add(m);
+
+        m = new Model();
         m.setTitle("Cubby to Default B");
         m.setDescription("B attack post plant lineup. ");
         m.setImg(R.drawable.icebox_cubby_to_default_b);
