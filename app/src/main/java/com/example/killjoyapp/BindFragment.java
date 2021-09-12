@@ -41,7 +41,7 @@ public class BindFragment extends Fragment {
 
         Model m = new Model();
         m.setTitle("Baths to Boxes");
-        m.setDescription("A site attack post plant lineup. ");
+        m.setDescription("A site attack post plant lineup. Jump onto boxes beside teleporter. ");
         m.setImg(R.drawable.bind_baths_to_boxes);
         m.setUrl("p26-qQSey4E");
         models.add(m);

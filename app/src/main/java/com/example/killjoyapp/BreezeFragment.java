@@ -41,7 +41,7 @@ public class BreezeFragment extends Fragment {
 
         Model m = new Model();
         m.setTitle("Lobby to Default A");
-        m.setDescription("A site post plant lineup (jump throw). ");
+        m.setDescription("A site post plant lineup (jump throw). Align the dot underneath your alarmbot icon with the top right corner of the red sign. ");
         m.setImg(R.drawable.breeze_lobby_to_default_a);
         m.setUrl("Udw1X-890QM");
         models.add(m);

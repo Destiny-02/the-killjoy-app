@@ -49,42 +49,42 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Wines to Generator (Front) ");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup.");
         m.setImg(R.drawable.wines_to_front_of_generator);
         m.setUrl("wHFnrb8Mb_o");
         models.add(m);
 
         m = new Model();
         m.setTitle("Tree to Wines");
-        m.setDescription("A defense lineup. Can be used with ultimate at tree/glass. ");
+        m.setDescription("A defense lineup. Align yourself with the path strip. Crosshair on the gap in the leaves. Can be used with ultimate at tree/glass. ");
         m.setImg(R.drawable.tree_to_wines);
         m.setUrl("1kqj4mbGOro");
         models.add(m);
 
         m = new Model();
         m.setTitle("Tree to Generator (Front)");
-        m.setDescription("A defense lineup. Can be used delay a plant. ");
+        m.setDescription("A defense lineup. Crosshair on slightly above the left of the triangle formed by the leaves. Can be used delay a plant. ");
         m.setImg(R.drawable.tree_to_front_of_generator);
         m.setUrl("jTSQdptzmnI");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Heaven (Right-side)");
-        m.setDescription("A attack lineup. ");
+        m.setDescription("A attack lineup. Stand in the middle of the small door. ");
         m.setImg(R.drawable.lobby_to_right_side_of_heaven);
         m.setUrl("pMlv4T1r9gA");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Green Boxes (Front) ");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup. Align yourself with the patch next to the front edge of the green boxes.  ");
         m.setImg(R.drawable.lobby_to_front_of_green_boxes);
         m.setUrl("-WluqbphzKk");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Generator (Front) ");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup. Stand beside the bike and align your crosshair on the second antenna. ");
         m.setImg(R.drawable.lobby_to_front_of_generator);
         m.setUrl("mkj7dnvgEto");
         models.add(m);
@@ -155,7 +155,7 @@ public class AscentFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Lobby to Stairs");
-        m.setDescription("B attack. Can be used to clear the area. ");
+        m.setDescription("B attack. Can be used to clear the area. Jump throw. ");
         m.setImg(R.drawable.lobby_to_stairs);
         m.setUrl("NcH7xRhHcDQ");
         models.add(m);

@@ -41,7 +41,7 @@ public class SplitFragment extends Fragment {
 
         Model m = new Model();
         m.setTitle("Lobby to Default");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup.");
         m.setImg(R.drawable.split_lobby_to_default);
         m.setUrl("b75oWotAycs");
         models.add(m);
@@ -49,7 +49,7 @@ public class SplitFragment extends Fragment {
         m = new Model();
         m.setTitle("Heaven to Default");
         m.setDescription("B attack or defense lineup. ");
-        m.setImg(R.drawable.split_heaven_default);
+        m.setImg(R.drawable.split_heaven_to_default);
         m.setUrl("pLMxA8dhr6Y");
         models.add(m);
 
@@ -62,14 +62,14 @@ public class SplitFragment extends Fragment {
 
         m = new Model();
         m.setTitle("Lobby to Left Corner");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup. Stand on the left side of the yellow-ropes door. ");
         m.setImg(R.drawable.split_lobby_to_left_corner);
         m.setUrl("bSmAGaReDfQ");
         models.add(m);
 
         m = new Model();
         m.setTitle("Lobby to Middle");
-        m.setDescription("A attack post plant lineup. ");
+        m.setDescription("A attack post plant lineup. Stand on the corner closest to the wall. ");
         m.setImg(R.drawable.split_lobby_to_middle);
         m.setUrl("IE1BIrspXcI");
         models.add(m);
