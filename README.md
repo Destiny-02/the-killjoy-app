@@ -10,4 +10,4 @@ https://drive.google.com/file/d/1h59ZvvHaLoqhBPbW1FtJAnVb8qW57KG_/view?usp=shari
 2) Enable installs from unknown apps (you might want to disable this again after you've installed The Killjoy App) 
 3) Launch app!
 
-![alt text](https://github.com/Destiny-02/TheKilljoyApp/blob/main/preview.png)
+![app screenshot](https://github.com/Destiny-02/TheKilljoyApp/blob/main/preview.png)
